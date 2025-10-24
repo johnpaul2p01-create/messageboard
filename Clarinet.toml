@@ -5,6 +5,11 @@ authors = []
 telemetry = true
 cache_dir = './.cache'
 requirements = []
+[contracts.Networking-coin]
+path = 'contracts/Networking-coin.clar'
+clarity_version = 3
+epoch = 3.1
+
 [contracts.messageboard]
 path = 'contracts/messageboard.clar'
 clarity_version = 3
